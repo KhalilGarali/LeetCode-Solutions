@@ -11,7 +11,6 @@ class Solution {
                 }
             }
         }
-        System.out.println(count);
         if(ransomNote.length() == count) return true;
         else return false;
     }
