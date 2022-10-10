@@ -62,7 +62,6 @@ class Solution {
                 if(i>0 && str[i-1] == 'C'){
                      num+=900;
                     i = i-1;
-                    System.out.println(num);
                 }
                 else{
                     num+=1000;
