@@ -5,5 +5,5 @@ class Solution(object):
         :type needle: str
         :rtype: int
         """
-        x = haystack.find(needle)
-        return x
+        index = haystack.find(needle)
+        return index
